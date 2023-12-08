@@ -1,0 +1,21 @@
+{
+	"name": "zoom_video_webrtc",
+	"version": "1.0.0",
+	"description": "a app use webrpc to call video, audio call, chat tẽt",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon index.js"
+	},
+	"author": "Phong",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"ejs": "^3.1.9",
+		"express": "^4.18.2",
+		"nodemon": "^3.0.2",
+		"peer": "^1.0.2",
+		"socket.io": "^4.7.2",
+		"uuid": "^9.0.1"
+	}
+}
